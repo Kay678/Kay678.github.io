@@ -5,15 +5,11 @@
 
 
 /* Drill 2 - Write your code solution below */
-#d2-s1 {
+#d2-s1,
+#d2-s3 {
     color: #f711f7;
 }   
-#d2-s2 {
-    color:#f711f7;
-}
-#d2-s3 {
-    color:#f711f7;
-}
+
 /* Drill 3 - Write your code solution below */
 #d3-s1 {
     color: red;
@@ -28,14 +24,16 @@
 
 /* Drill 4 - Write your code solution below */
 #d4-p1 {
-    color:skyblue;
+    background-color:skyblue;
 }
 
 /* Drill 5 - Write your code solution below */
 #d5-p1 {
-    color:pink
+    background-color:pink
 }
-
+#d5-div1{
+    background-color:peachpuff 
+}
 #d5-p2 {
-    color:peachpuff
+    background-color:lightcoral
 }
