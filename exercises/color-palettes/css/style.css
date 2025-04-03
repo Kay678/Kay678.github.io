@@ -28,7 +28,32 @@
     background-color:#8DDBE0;
     padding: 24px;
 }
-#
+#p1-c6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color:#16697A;
+    padding:24px;
+}
+#p1-c7{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color:#489FB5;
+    padding:24px;
+}   
+#p1-c8{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+    text-align: center;
+    background-color:#82C0CC;
+    padding:24px;
+}
+#p1-c9{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color:#EDE7E3;
+    padding:24px;
+}
+
 body {
     margin: 0px;
     font-family: sans-serif;
