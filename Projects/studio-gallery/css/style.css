@@ -1,0 +1,50 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#pic1 {
+    width: 60px;
+    margin-top: 50px;
+    border: 10px solid brown;
+    padding: 8px;
+    background-color: antiquewhite;
+}
+
+#pic2 {
+    width: 80px;
+    margin-left: 50px;
+    border: 10px solid skyblue;
+    padding: 8px;
+    background-color: antiquewhite;
+}
+
+#frames1{
+    width: 80px;
+    margin-right: 100px;
+    border: 5px solid black;
+    padding: 24px;
+    background-color: gray
+}
+
+#pic3 {
+    width: 100px;
+    margin-top: 50px;
+    border: 10px solid white;
+    padding: 8px;
+    background-color: yellow;
+}
+
+#frame4 {
+    width: px;
+    margin-right: 50px;
+    border: 10px solid green;
+    padding: 8px;
+    background-color: antiquewhite;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
