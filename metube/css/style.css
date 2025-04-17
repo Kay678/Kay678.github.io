@@ -84,6 +84,9 @@ body {
 .youtube-item h4 {
     margin: 8px;
 }
+.youtube-item img {
+    width: 100%;
+}
 
 .youtube-item h4 a {
     text-decoration: none;

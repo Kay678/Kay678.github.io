@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#page-layout {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr;
+}
+
+#column-one {
+    background-color: lightgray;
+    /* width: 150px; */
+}
+
+#column-one img {
+    width: 100%;
+}
+
+#column-two {
+    background-color: lightgrey;
+    /* flex: 1; */
+}
+
+#column-two img {
+    width: 150%;
+}
+
+#column-three {
+    background-color: white;
+    /* flex: 1; */
+}
