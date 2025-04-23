@@ -1,0 +1,27 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-2 {
+    border-radius: 8%;
+    max-width: 350px;
+    background-color: white;
+    margin: 24px
+}
+
+.card-style-2 img {
+    width: 60%;
+    border-radius: 200%;
+    align-items: baseline;
+}
+
+.animagram-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
