@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&family=Special+Gothic+Condensed+One&display=swap');
 
 
-h2 {font-family: "Playwrite RO", cursive;
+h1 {font-family: "Playwrite RO", cursive;
 }
 
 * {
@@ -34,14 +34,6 @@ body {
     bottom: 50%;
 }
 
-#hero-2 h4 {
-    color: white;
-    font-size: 30px;
-    position:absolute;
-    right: 20%;
-    bottom: 47%;
-}
-
 #hero-2 a {
     font-size: 14px;
     display: inline-block;
@@ -52,4 +44,43 @@ body {
     position: absolute;
     right: 20%;
     bottom: 42%;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid purple;
+    background-color: purple;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h2 {
+    font-size: 40px;
+    margin: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#card-section {
+    background-color: lightblue;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 400px;
+    margin:auto;
+}
+
+.card a {
+    color:white
 }
