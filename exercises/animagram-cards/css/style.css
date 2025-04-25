@@ -32,6 +32,13 @@
     padding-right: 50px;
 }
 
-.animagram-footer span i {
-    color: blueviolet;
+.brand-name {
+    font-size: 27px;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-top: 50px;
 }
