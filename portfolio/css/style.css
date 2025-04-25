@@ -54,8 +54,8 @@ body {
 
 .card {
     flex: 1;
-    border: 3px solid purple;
-    background-color: purple;
+    border: 3px solid grey;
+    background-color: grey;
     padding: 36px;
     text-align: center;
     margin: 36px;
@@ -64,6 +64,7 @@ body {
 .card h2 {
     font-size: 40px;
     margin: 30px;
+    color: white;
 }
 
 .card-container {
@@ -73,12 +74,6 @@ body {
 
 #card-section {
     background-color: lightblue;
-}
-
-.single-column {
-    min-width: 600px;
-    max-width: 400px;
-    margin:auto;
 }
 
 .card a {
