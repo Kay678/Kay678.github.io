@@ -18,16 +18,17 @@ body {
 
 #hero .hero-content {
     position: absolute;
-    top: 100PX;
+    bottom: 30%;
     left: 100PX;
+    right:100px;
 }
 
 #hero h2 {
     font-size: 72px;
     margin-bottom: 36px;
-    color: yellow;
+    color:black;
     text-shadow: 50px;
-    position: absolute;
+    padding: 100px;
 }
 
 #hero h4 {
