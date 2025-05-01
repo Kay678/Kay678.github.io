@@ -8,7 +8,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/bora\ bora\ 1.jpg");
+    background-image: url("../images/bora\ bora\ 14.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -25,8 +25,9 @@ body {
 #hero h2 {
     font-size: 72px;
     margin-bottom: 36px;
-    background-color: aquamarine;
-    color: black;
+    color: yellow;
+    text-shadow: 50px;
+    position: absolute;
 }
 
 #hero h4 {
