@@ -16,7 +16,7 @@ body {
     margin-bottom: 100px;
 }
     
-#hero-1 .hero-content {
+#hero-1 .hero-1-main {
     text-align: right;
     position: absolute;
     top: 5%;
@@ -28,21 +28,28 @@ body {
     margin-bottom: 60px;
     color: white;
 }
-    
-#hero-1 h4 {
-    font-size: 48px;
+
+#hero-1 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-    
-    
-#main {
+ 
+#hero-1-main {
     height: 100vh;
 }
     
-h1 {
+#hero-1 h1 {
     font-size: 36px;
 }
     
-p {
+#hero-1 p {
     font-size: 20px;
 }
 
