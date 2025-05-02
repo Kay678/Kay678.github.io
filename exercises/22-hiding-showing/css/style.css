@@ -32,27 +32,27 @@ body {
 }
 
 /* pseudo-class */
-#card1:hover {
+#card-1:hover {
     background-color: lightcyan;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
 
-#card1{
+#card-1{
     transition: 
     background-color 0.5s
     box-shadow 0.5s
     transform 0.5s;
 }
 
-#card2  a {
+#card-2  a {
     transition: 
         background-color 0.5s
         box-shadow 0.5s
         transform 0.5s;
 }
 
-#card2:hover a {
+#card-2:hover a {
     background-color: aquamarine;
     box-shadow: 4px 4px 4px;
     transform: translateY(-4px);
@@ -79,7 +79,7 @@ body {
         transform 0.5s;
 }
 
-#card4:hover .card-content {
+#card-4:hover .card-content {
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
@@ -89,7 +89,7 @@ body {
     position: relative;
 }
 
-#card5 .card-content {
+#card-5 .card-content {
     position: absolute;
     background-color: white;
     border: 3px solid black;
@@ -98,6 +98,20 @@ body {
     left: 0px;
     margin: 0px 24px;
     padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+    opacity 0.5s,
+    visibility 0.5s,
+    transform 0.5s;
 }
+
+#card-5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+    
 
 
