@@ -7,11 +7,12 @@ body {
     font-family: sans-serif;
 }
 
+
 #navbar {
     background: linear-gradient(
         to bottom,
-        #109CB8,
-        #0E5B96
+        orange,
+        red
     );
     display: flex;
     align-items: center;
@@ -33,8 +34,8 @@ body {
 #navbar a:hover {
     background: linear-gradient(
         to top,
-        #109CB8,
-        #0E5B96
+        red,
+        yellow
     );
 }
 
@@ -63,22 +64,21 @@ body {
     right: 0px;
 }
 
-
 .dropdown-container:hover .fa-chevron-down {
-    display: none;
     transition: transform 0.25;
 }
     
 .dropdown-container:hover .dropdown-menu {
-    transform: rotate(180deg);
+    opacity: 1;
+    visibility: visible;
 }
     
     .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: red;
     width: 100%;
     min-width: 200px;
 }
     
     #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    background: orange;
 }
