@@ -128,17 +128,11 @@ bottom: 41%;
 .dog-1 h2 {
     font-size: 50px;
     color: orangered;
-    right: 20%;
-    bottom: 78%;
-    position: absolute;
 }
 
 .dog-1 h3 {
     font-size: 19px;
     color: black;
-    right: 7%;
-    bottom: 78%;
-    position: absolute;
 }
 
 #background-layout {
