@@ -465,9 +465,45 @@ body {
     #nav a {
         flex: 230px;
     }
+
+    #header h1 {
+        font-size: 46px;
+    }
 }
 
 /* Mobile Breakpoint View */
 @media screen and (max-width: 800px) {
+    body {
+        background: blueviolet;
+    }
+
+    #grid-layout {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        " header"
+        " navbar"
+        " banner"
+        " card-1" 
+        " card-2" 
+        " card-3"
+        " aside"
+        " footer"
+        " bottom";
+    }
+
+    #shield-image {
+        display: none;
+    }
+
+    #search-bar {
+        display: none;
+    }
     
+    #search-button {
+        display: none;
+    }
+
+    #header h1 {
+        font-size: 50px;
+    }
 }
