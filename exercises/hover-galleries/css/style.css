@@ -16,7 +16,7 @@ body {
     display: flex;
 }
 
-.card a {
+.card  {
     text-decoration: double;
     color: solid brown;
     border: 3px solid black;
