@@ -449,13 +449,13 @@ body {
     #grid-layout {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
-        " header header header"
-        " navbar navbar navbar"
-        " banner banner banner"
-        " card-1 card-2 card-3"
-        " aside  blog  blog"
-        " footer footer footer"
-        " bottom bottom bottom";
+            " header header header"
+            " navbar navbar navbar"
+            " banner banner banner"
+            " card-1 card-2 card-3"
+            " aside  blog  blog"
+            " footer footer footer"
+            " bottom bottom bottom";
     }
 
     #nav {
@@ -473,22 +473,21 @@ body {
 
 /* Mobile Breakpoint View */
 @media screen and (max-width: 800px) {
-    body {
-        background: blueviolet;
-    }
+
 
     #grid-layout {
         grid-template-columns: 1fr;
         grid-template-areas: 
-        " header"
-        " navbar"
-        " banner"
-        " card-1" 
-        " card-2" 
-        " card-3"
-        " aside"
-        " footer"
-        " bottom";
+            " header"
+            " navbar"
+            " banner"
+            " card-1" 
+            " card-2" 
+            " card-3"
+            " blog"
+            " aside"
+            " footer"
+            " bottom";
     }
 
     #shield-image {
@@ -504,6 +503,30 @@ body {
     }
 
     #header h1 {
-        font-size: 50px;
+        font-size: 44px;
     }
+
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav {
+        flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 10px;
+    }
+
+    #banner-container,
+        #card-1,
+        #card-2,
+        #card-3,
+        #aside,
+        #main {
+        background-color: transparent;
+        margin: 0px;
+        padding:0px;
+}
 }
