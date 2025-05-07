@@ -442,9 +442,6 @@ body {
 
 /* Tablet Breakpoint View */
 @media screen and (max-width: 1000px) and (min-width: 800px) {
-    body {
-        background: red;
-    }
 
     #grid-layout {
         grid-template-columns: 1fr 1fr 1fr;
