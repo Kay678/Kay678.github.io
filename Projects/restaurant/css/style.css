@@ -104,7 +104,6 @@ body {
 }
 
 .card-container {
-    position: absolute;
     background-color: white;
     border: 3px solid black;
     border-radius: 12px;
@@ -119,6 +118,7 @@ body {
     opacity 0.5s,
     visibility 0.5s,
     transform 0.5s;
+    text-align: center;
 }
 
 .card-container {
