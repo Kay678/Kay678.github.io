@@ -18,16 +18,14 @@ body {
 
 .card  {
     text-decoration: double;
-    color: solid brown;
-    border: 3px solid black;
+    border: 3px solid blueviolet;
     padding: 12px;
     margin-top: 36px;
 }
 
-#card-1 {
+#card-1 {   
     color:blueviolet;
     border: 10px solid;
 }
-
 
 
