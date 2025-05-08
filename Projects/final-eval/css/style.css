@@ -6,3 +6,40 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#hero-1 {
+    background-image: url("../images/football.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-1 h1, h2, h3 {
+    color: white;
+}
+
+.button-1 {
+    width: 350px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px4px 12px black;
+    background-color: rgb(156, 0, 0)
+}
+
+.button-2 {
+    width: 350px;
+    border: 2px solid yellow;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: -4px4px 12px black;
+    background-color: rgb(156, 0, 0);
+    
+}
+    
+
