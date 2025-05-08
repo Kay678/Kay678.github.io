@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    text-align: center;
 }
 
 #hero-1 {
@@ -39,7 +40,20 @@ body {
     padding: 10px;
     box-shadow: -4px4px 12px black;
     background-color: rgb(156, 0, 0);
-    
 }
     
+.hero-1 {
+    width: 10%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.single-column {
+    
+}
+     
+.light-container {
+    padding: 48px 0px;
+}
+    
