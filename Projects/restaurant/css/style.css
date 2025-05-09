@@ -10,7 +10,7 @@ body {
 #navbar {
     background: linear-gradient(
         to bottom,
-        rgb(49, 27, 3),
+        #a57342,
         rgb(192, 158, 99)
     );
     display: flex;
@@ -34,7 +34,7 @@ body {
     background: linear-gradient(
         to top,
         rgb(192, 158, 99),
-        rgb(49, 27, 3)
+        #a57342
     );
 }
 
@@ -66,6 +66,7 @@ body {
     right: 20%;
     bottom: 50%;
     color: white;
+    padding: 100px;
 }
 
 #home-page h1 {
@@ -75,13 +76,25 @@ body {
 #home-page a {
     font-size: 14px;
     display: inline-block;
-    background-color: #333333;
+    background-color: #a57342;
     color: white;
     text-decoration: none;
     padding: 24px;
     position: absolute;
-    right: 20%;
-    bottom: 41%;
+    right: 59%;
+    bottom: 47%;
+}
+
+#button-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #a57342;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 46%;
+    bottom: 40%;
 }
 
 #cards-container {
@@ -126,3 +139,5 @@ body {
     visibility: visible;
     transform: translateY(0px);
 }
+
+.
