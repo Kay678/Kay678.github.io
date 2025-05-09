@@ -24,7 +24,7 @@ body {
     color: white;
 }
 
-.button-1 {
+.button-1 a {
     width: 350px;
     border: 2px solid yellow;
     border-radius: 5px;
@@ -33,7 +33,7 @@ body {
     background-color: rgb(156, 0, 0)
 }
 
-.button-2 {
+.button-2  a {
     width: 350px;
     border: 2px solid yellow;
     border-radius: 3px;
