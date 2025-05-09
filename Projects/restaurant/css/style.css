@@ -166,7 +166,7 @@ body {
 .card-1 {
    display: inline-block;
    width: 450px;
-   
+
 }
 
 .card-2 {
@@ -213,3 +213,18 @@ body {
     display: inline-block;
     width: 450px;
  }
+
+
+/* Mobile Breakpoint View, Adjust size to see red background in html site view */
+@media screen and (max-width: 450px) {
+    /* body {
+        background-color: firebrick;
+    } */
+}
+
+/* Tablet Breakpoint View, adjust size in html preview */
+@media screen and (max-width: 740px) and (min-width: 450px) {
+    /* body {
+        background-color: skyblue;
+    } */
+}
