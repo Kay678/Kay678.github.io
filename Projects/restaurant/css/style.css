@@ -140,4 +140,24 @@ body {
     transform: translateY(0px);
 }
 
-.
+#footer {
+    background: linear-gradient(
+        to bottom,
+        #a57342,
+        rgb(192, 158, 99)
+    );
+    color: white;
+    padding: 12px;
+}
+    
+    #footer a {
+    text-decoration: none;
+    color: white;
+}
+    
+    #footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
