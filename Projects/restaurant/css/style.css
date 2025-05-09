@@ -129,7 +129,7 @@ body {
     visibility: hidden;
     transform: translateY(-8px);
     transition: 
-  c  opacity 0.5s,
+    opacity 0.5s,
     visibility 0.5s,
     transform 0.5s;
     text-align: center;
@@ -163,6 +163,53 @@ body {
     justify-content: space-between;
 }
 
-.card-0-featured-dish {
+.card-1 {
+   display: inline-block;
+   width: 450px;
    
 }
+
+.card-2 {
+    display: inline-block;
+    width: 450px;
+ }
+
+ .card-3 {
+    display: inline-block;
+    width: 450px;
+ }
+
+ .card-4 {
+    display: inline-block;
+    width: 450px;
+ }
+
+ .card-5 {
+    display: inline-block;
+    width: 450px;
+ }
+
+ .card-5 {
+    display: inline-block;
+    width: 450px;
+ }
+
+ .card-6 {
+    display: inline-block;
+    width: 450px;
+ }
+
+ .card-7 {
+    display: inline-block;
+    width: 450px;
+ }
+
+ .card-8 {
+    display: inline-block;
+    width: 450px;
+ }
+
+ .card-9 {
+    display: inline-block;
+    width: 450px;
+ }
