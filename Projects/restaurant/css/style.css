@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #a57342;
 }
 
 #navbar {
@@ -128,7 +129,7 @@ body {
     visibility: hidden;
     transform: translateY(-8px);
     transition: 
-    opacity 0.5s,
+  c  opacity 0.5s,
     visibility 0.5s,
     transform 0.5s;
     text-align: center;
@@ -160,4 +161,8 @@ body {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+}
+
+.card-0-featured-dish {
+   
 }
