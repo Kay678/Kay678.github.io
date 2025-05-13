@@ -50,7 +50,7 @@ function reactToMoveLeftButton() {
 }
 
 function reactToMoveDownButton() {
-
+    gvgv
 }
 
 function reactToMoveUpButton() {
