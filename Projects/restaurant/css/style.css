@@ -45,58 +45,51 @@ width: 250px;
     padding-bottom: 13px;
 }
 
-#home-page {
+#hero {
     background-image: url("../images/24\ picture.avif");
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
     position: relative;
     margin-bottom: 100px;
 }
-    
-    
+
+#home-page {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+        
 #home-page h2 {
     font-size: 72px;
-    position: absolute;
-    right: 20%;
-    bottom: 70%;
+
+
     color: white;
     padding: 100px;
 }
 
 #home-page h1 {
     color: white;
-    right: 37%;
-    bottom: 34%;
-    position: relative;
-}
-    
-#home-page a {
-    font-size: 14px;
-    display: inline-block;
-    background-color: #a57342;
-    color: white;
-    text-decoration: none;
-    padding: 24px;
-    position: absolute;
-    right: 59%;
-    bottom: 47%;
+    right: 50%;
+    left: 60%;
+    bottom: 90px;
 }
 
-#button-2 a {
+.button a {
     font-size: 14px;
     display: inline-block;
     background-color: #a57342;
     color: white;
     text-decoration: none;
     padding: 24px;
+    margin-right: 10px;
+}
+
+#button-container {
+    display: flex;
     position: absolute;
-    right: 46%;
-    bottom: 24%;
+    bottom: 10%;
+    left: 30%;
 }
 
 #cards-container {
@@ -167,6 +160,8 @@ width: 250px;
 .card-1 {
    display: inline-block;
    width: 450px;
+   position: relative;
+  
 
 }
 
